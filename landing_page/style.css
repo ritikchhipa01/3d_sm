@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    max-width: 100%; 
+}
+
+
+nav{
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 3.8rem;
+
+}
+
+
+.left_nav {
+    display: flex;
+    align-items: center;
+}
+
+.left_nav a{
+    font-size: 2rem;
+    font-family: 'Poppins','sans-serif';
+    color: #000;
+}
+
+.left_nav li{
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.left_nav li a{
+    text-decoration: none;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.right li {
+    list-style-type: none;
+    
+    margin-left: 40px;
+    
+}
+
+.right li a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Poppins','sans-serif';
+    font-size: 1rem;
+    font-weight: 500;
+}
+hr{
+    margin: 0px 4vw;
+}
+
+
+.banner{
+    background-image: linear-gradient(to bottom right, #000000, #5585E0,#ff40AD) ;
+    border-radius: 10px;
+    border-radius: 54px;
+    margin: 1rem 3rem;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.banner-left{
+    color: white;
+    font-family: 'Poppins','sans-serif';
+    width: 35vw;
+}
+
+
+
+.banner-left h1{
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: 'Poppins','sans-serif';
+    margin-top: 100px;
+}
+
+.banner-left p{
+    font-weight: 500;
+     font-family: 'Poppins','sans-serif';
+     width: 24vw;
+}
+
+.banner-left pre{
+     font-weight: 500;
+     font-family: 'Poppins','sans-serif';
+     width: 24vw;
+     
+}
+
+.banner-right{
+    margin-bottom: -60rem;
+    margin-top: 10rem;
+}
+
+.qrdownload{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    margin-top: 5vh;
+}
+
+.qrdownload .code{
+    background-color: #d9d9d956;
+    padding: 0.7rem 1rem;
+    border-radius: 10px;
+    margin-right: 4rem;
+}
+
+
+
+
+
+
+
+
+
+.card{
+      background-image: url('/images/Rectangle.png');
+      margin-top:  50vh;
+      margin-left: 5vw;
+      margin-right: 5vw;
+      border-radius: 25px;
+      display: flex;
+}
+
+
+.card_img{
+    width: 40vw;
+    margin: 8rem 5rem;
+    background-repeat: no-repeat;
+
+
+}
+
+.card_text h2{
+      margin-top: 10rem;
+      font-family: 'Poppins','sans-serif';
+      font-size: 50px;
+}
+
+.card_text p{
+    margin-top: 4rem;
+    font-family: 'Poppins','sans-serif';
+    font-weight: 600;
+    font-size: 30px;
+    width: 27vw;
+    letter-spacing: 1.6px;
+    line-height: 1.5;
+    color: #848484;
+}
+.bold{
+    color:#054F65;
+}
+
+
+.card1{
+    background-image: linear-gradient(to right,#fcfeff,#6DD5FA,#2980B9);
+    border-radius: 25px;
+    margin: 10vw 5vw;
+}
+
+.ourproduct{
+
+    display: flex;
+    flex-direction: COLUMN;
+    justify-content: center;
+}
+
+
+
+/* //frequently asked question
+
+
+
+/* screen */
+
+.screen{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.screen img{
+    margin: 4rem;
+}
+
+.screen  p{
+    width: 40vw;
+}
+
+.screen h2{
+    font-size: 4.2rem;
+    font-family: 'Poppins','sans-serif';
+    line-height: 1;
+}
+
+.screen h3{
+    font-size: 3rem;
+    font-family: 'Poppins','sans-serif';
+    font-weight: 600;
+    color: #054F65 ;
+    line-height: 0;
+}
+
+.screen p{
+    font-size: 2.5rem;
+    font-family: 'Poppins','sans-serif';
+    font-weight: 400;
+    color: rgb(129, 129, 129);
+    line-height: 1.5;
+}
+
+.screen2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.screen2  p{
+    width: 40vw;
+}
+
+.screen2 h2{
+    font-size: 4.2rem;
+    font-family: 'Poppins','sans-serif';
+    line-height: 0.1;
+}
+
+.screen2 h3{
+    font-size: 3rem;
+    font-family: 'Poppins','sans-serif';
+    font-weight: 600;
+    color: #054F65 ;
+}
+
+.screen2 p{
+    font-size: 2.5rem;
+    font-family: 'Poppins','sans-serif';
+    font-weight: 400;
+    color: rgb(129, 129, 129);
+    line-height: 1.5;
+}
+
+
+
+.screen3{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.screen3 img{
+    margin: 4rem;
+}
+
+.screen3  p{
+    width: 40vw;
+}
+
+.screen3 h2{
+    font-size: 4.2rem;
+    font-family: 'Poppins','sans-serif';
+    line-height: 0.1;
+}
+.screen3 h3{
+    font-size: 3rem;
+    font-family: 'Poppins','sans-serif';
+    font-weight: 600;
+    color: #054F65 ;
+   
+}
+.screen3 p{
+    font-size: 2.5rem;
+    font-family: 'Poppins','sans-serif';
+    font-weight: 400;
+    color: rgb(129, 129, 129);
+    line-height: 1.5;
+}
+
+
+.screen4{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.screen4 img{
+    margin: 4rem;
+}
+
+.screen4  p{
+    width: 40vw;
+}
+
+.screen4 h2{
+    font-size: 3.5rem;
+    font-family: 'Poppins','sans-serif';
+    line-height: 0;
+}
+.screen4 h3{
+    font-size: 3rem;
+    font-family: 'Poppins','sans-serif';
+    font-weight: 600;
+    color: #054F65 ;
+    
+}
+
+.screen4 p{
+    font-size: 2.5rem;
+    font-family: 'Poppins','sans-serif';
+    font-weight: 400;
+    color: rgb(129, 129, 129);
+    line-height: 1.5;
+}
+
+.product{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 500;
+    font-family: 'Poppins','sans-serif';
+}
+
+.productimg{
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+/* accordian */
+.acc-heading{
+    
+  text-align: center;
+  font-family: 'Poppins','sans-serif';
+  font-size: 3rem;
+}
+.accordion {
+    background-color: #054F65;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 50%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    margin: 5px 25vw;
+    
+  }
+  
+  .active, .accordion:hover {
+    background-color: #47c5eb;
+    color: #054F65;
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .panel {
+    padding: 0 10px;
+    background-color: white;
+    max-height: 0;
+    width: 45vw;
+    margin: 0 27vw;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+
+/* footer */
+
+footer{
+    margin-top: 5vh;
+    background-color: #83B3A5;
+    border-top: 5px solid #054F65;
+    box-shadow: 0px 0px 8px 0px #000000;
+    -webkit-box-shadow: 2px px 0px 10px #000000;
+}
+
+
+.first-footer{
+    display: flex;
+    color: white; 
+    font-family: 'Poppins','sans-serif';
+    
+}
+
+.first-footer div{
+    margin-left: 40px;
+    margin-top: 3vh;
+}
+.first-footer div h2{
+    font-size: 38px;
+}
+.first-footer div:first-child{
+    margin-left: 200px;
+}
+
+.first-footer div:last-child{
+    margin-left: 15vw;
+}
+.first-footer div p{
+    color: #054F65;
+    font-weight: 700;
+    
+}
+
+.query{
+    display: flex;
+    align-items: center;
+}
+
+.query div p{
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Poppins','sans-serif';
+    font-weight: 700;
+    width: 25vw;
+    margin-left: 5vw;
+}
+
+.queryinput{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+}
+
+.queryinput input{
+    background-color: rgba(255, 255, 255, 0.180); 
+    border: none;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    padding:10px;
+    width: 30vw;
+    border-radius: 4px;    
+}
+
+
+.queryinput input::placeholder{
+    color: white;
+}
+
+.queryinput button{
+      background-color: white;
+      border: none;
+      padding: 10px;
+      width: 100px;
+      border-radius: 4px;
+      margin-top: 1rem;
+}
+
+.hr2{
+     margin: 0vw 39vw 0vw 12vw;
+}
+
+.tree{
+    margin-left: 2vw;
+   
+    margin-bottom: -12vw;
+}
+
+.tree2{
+   margin-bottom: -3vw;
+}
+
+.last-footer{
+    background-color: #E6E6E6;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    box-shadow: inset 4px 3px 8px 1px #969696;
+  	-webkit-box-shadow: inset 4px 3px 8px 1px #969696;
+
+}
+
+
+
+.right-last-footer ul{
+    display: flex;
+    list-style-type: none;
+    float: right;
+    padding: 40px;
+}
+
+.right-last-footer ul li{ 
+    margin-left:20px;
+}
